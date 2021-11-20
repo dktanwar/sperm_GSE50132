@@ -1,0 +1,56 @@
+Try to predict the right adapter
+UNCONDITIONAL_BIDIRECTIONAL_TRIM_LENGTH=0
+No barcode trimming requested by user
+Analysis complete for SRR955629-trimmed.fastq
+Analysis complete for SRR955629-nofilt-trimmed.fastq
+Archive:  SRR955629.fastq.gz.fasta.fastq.zip
+   creating: SRR955629.fastq.gz.fasta.fastq/
+   creating: SRR955629.fastq.gz.fasta.fastq/Icons/
+   creating: SRR955629.fastq.gz.fasta.fastq/Images/
+  inflating: SRR955629.fastq.gz.fasta.fastq/Icons/fastqc_icon.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/Icons/warning.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/Icons/error.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/Icons/tick.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/summary.txt  
+  inflating: SRR955629.fastq.gz.fasta.fastq/Images/per_base_quality.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/Images/per_sequence_quality.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/Images/per_base_sequence_content.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/Images/per_sequence_gc_content.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/Images/per_base_n_content.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/Images/sequence_length_distribution.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/Images/duplication_levels.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/Images/adapter_content.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/Images/kmer_profiles.png  
+  inflating: SRR955629.fastq.gz.fasta.fastq/fastqc_report.html  
+  inflating: SRR955629.fastq.gz.fasta.fastq/fastqc_data.txt  
+  inflating: SRR955629.fastq.gz.fasta.fastq/fastqc.fo  
+Mapping against miRNAs
+Extract unmapped reads from bam file /share/de/Sperm_60e4415a8b4ef/SRR955629-mirna.bam
+Convert bam file /share/de/Sperm_60e4415a8b4ef/SRR955629-mirna_unmapped.bam to fastq file
+Mapping the rest of the reads of sample SRR955629 against other sRNAs
+Extract unmapped reads from bam file /share/de/Sperm_60e4415a8b4ef/SRR955629-srna.bam
+Convert the bam file of the unmapped reads of sample SRR955629 to fasta
+Mapping against the reference genome and extract the unmapped reads to study the contamination
+Exract unmapped reads
+Convert the bam file of the unmapped reads mapped to the genome of sample SRR955629 to fasta
+Running kraken package for sample SRR955629
+Mapping the rest of the reads to the other mirna genomes
+Create count file
+Adding mirna to the count file /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955629/SRR955629_allspeciesCounts.txt
+Adding pirna to the count file /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955629/SRR955629_allspeciesCounts.txt
+Adding snorna to the count file /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955629/SRR955629_allspeciesCounts.txt
+Adding snrna to the count file /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955629/SRR955629_allspeciesCounts.txt
+Adding rrna to the count file /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955629/SRR955629_allspeciesCounts.txt
+/share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955629/SRR955629-smallrnaOutput/mapping/SRR955629-Log.final.out
+NUMER_READS:15145094
+UNIQUE_MAPPED_READS=603218
+MULTIPLE_MAPPED_READS=129192
+[1] "/share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955629/Sample_readsR.log"
+[1] "/share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955629/Sample_smallrnaR.log"
+[1] "/share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955629/Sample_trimR.log"
+[1] "/share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955629/Sample_starR.log"
+[1] "numberReads"
+[1] "trim"
+[1] "map"
+[1] "smallRNA"
+Sample SRR955629 finished with no errors

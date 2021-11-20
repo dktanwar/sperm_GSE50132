@@ -1,0 +1,361 @@
+You are running cutadapt 1.7.1 with Python 2.7.6
+Command line parameters: -a xxxxxxxxxxxxxxxxxxxxxxxxxxx /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955633/SRR955633_cat.fastq
+Maximum error rate: 10.00%
+   No. of adapters: 1
+   Processed reads:     18771501
+   Processed bases:    938575050 bp (938.6 Mbp)
+     Trimmed reads:            0 (0.0%)
+     Trimmed bases:            0 bp (0.0 Mbp) (0.00% of total)
+   Too short reads:            0 (0.0% of processed reads)
+    Too long reads:            0 (0.0% of processed reads)
+        Total time:    153.31 s
+     Time per read:      0.008 ms
+
+=== Adapter 1 ===
+
+Sequence: XXXXXXXXXXXXXXXXXXXXXXXXXXX; Type: regular 3'; Length: 27; Trimmed: 0 times.
+
+You are running cutadapt 1.7.1 with Python 2.7.6
+Command line parameters: -a CTGTAGGCACCA /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955633/SRR955633_cat.fastq
+Maximum error rate: 10.00%
+   No. of adapters: 1
+   Processed reads:     18771501
+   Processed bases:    938575050 bp (938.6 Mbp)
+     Trimmed reads:     18240847 (97.2%)
+     Trimmed bases:    540210874 bp (540.2 Mbp) (57.56% of total)
+   Too short reads:            0 (0.0% of processed reads)
+    Too long reads:            0 (0.0% of processed reads)
+        Total time:    234.23 s
+     Time per read:      0.012 ms
+
+=== Adapter 1 ===
+
+Sequence: CTGTAGGCACCA; Type: regular 3'; Length: 12; Trimmed: 18240847 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 34.5%
+  C: 11.3%
+  G: 14.8%
+  T: 18.1%
+  none/other: 21.4%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	108933	293304.7	0	108933
+4	136555	73326.2	0	136555
+5	134800	18331.5	0	134800
+6	233245	4582.9	0	233245
+7	416678	1145.7	0	416678
+8	549377	286.4	0	549377
+9	573587	71.6	0	565112 8475
+10	251835	17.9	1	238592 13243
+11	221932	4.5	1	208974 12958
+12	225340	1.1	1	212640 12700
+13	195414	1.1	1	182139 13275
+14	197169	1.1	1	184408 12761
+15	244625	1.1	1	228824 15801
+16	284955	1.1	1	264940 20015
+17	379130	1.1	1	356200 22930
+18	384262	1.1	1	357623 26639
+19	443991	1.1	1	413939 30052
+20	403517	1.1	1	376452 27065
+21	382962	1.1	1	354911 28051
+22	327862	1.1	1	306270 21592
+23	319911	1.1	1	298983 20928
+24	405954	1.1	1	381958 23996
+25	379475	1.1	1	356575 22900
+26	384050	1.1	1	362492 21558
+27	401756	1.1	1	379106 22650
+28	433195	1.1	1	408213 24982
+29	444641	1.1	1	420254 24387
+30	428184	1.1	1	405578 22606
+31	469950	1.1	1	447947 22003
+32	499239	1.1	1	471764 27475
+33	607476	1.1	1	580819 26657
+34	676824	1.1	1	643983 32841
+35	642910	1.1	1	616810 26100
+36	600540	1.1	1	578672 21868
+37	461821	1.1	1	445685 16136
+38	332171	1.1	1	320147 12024
+39	249660	1.1	1	242279 7381
+40	179247	1.1	1	174060 5187
+41	139908	1.1	1	136060 3848
+42	97806	1.1	1	95660 2146
+43	46971	1.1	1	45790 1181
+44	14759	1.1	1	14259 500
+45	8226	1.1	1	7949 277
+46	7825	1.1	1	7548 277
+47	2350	1.1	1	2172 178
+48	233	1.1	1	142 91
+49	1401	1.1	1	1035 366
+50	3908195	1.1	1	3748044 160151
+
+Started analysis of SRR955633-trimmed.fastq
+Approx 5% complete for SRR955633-trimmed.fastq
+Approx 10% complete for SRR955633-trimmed.fastq
+Approx 15% complete for SRR955633-trimmed.fastq
+Approx 20% complete for SRR955633-trimmed.fastq
+Approx 25% complete for SRR955633-trimmed.fastq
+Approx 30% complete for SRR955633-trimmed.fastq
+Approx 35% complete for SRR955633-trimmed.fastq
+Approx 40% complete for SRR955633-trimmed.fastq
+Approx 45% complete for SRR955633-trimmed.fastq
+Approx 50% complete for SRR955633-trimmed.fastq
+Approx 55% complete for SRR955633-trimmed.fastq
+Approx 60% complete for SRR955633-trimmed.fastq
+Approx 65% complete for SRR955633-trimmed.fastq
+Approx 70% complete for SRR955633-trimmed.fastq
+Approx 75% complete for SRR955633-trimmed.fastq
+Approx 80% complete for SRR955633-trimmed.fastq
+Approx 85% complete for SRR955633-trimmed.fastq
+Approx 90% complete for SRR955633-trimmed.fastq
+Approx 95% complete for SRR955633-trimmed.fastq
+Approx 100% complete for SRR955633-trimmed.fastq
+Started analysis of SRR955633-nofilt-trimmed.fastq
+Approx 5% complete for SRR955633-nofilt-trimmed.fastq
+Approx 10% complete for SRR955633-nofilt-trimmed.fastq
+Approx 15% complete for SRR955633-nofilt-trimmed.fastq
+Approx 20% complete for SRR955633-nofilt-trimmed.fastq
+Approx 25% complete for SRR955633-nofilt-trimmed.fastq
+Approx 30% complete for SRR955633-nofilt-trimmed.fastq
+Approx 35% complete for SRR955633-nofilt-trimmed.fastq
+Approx 40% complete for SRR955633-nofilt-trimmed.fastq
+Approx 45% complete for SRR955633-nofilt-trimmed.fastq
+Approx 50% complete for SRR955633-nofilt-trimmed.fastq
+Approx 55% complete for SRR955633-nofilt-trimmed.fastq
+Approx 60% complete for SRR955633-nofilt-trimmed.fastq
+Approx 65% complete for SRR955633-nofilt-trimmed.fastq
+Approx 70% complete for SRR955633-nofilt-trimmed.fastq
+Approx 75% complete for SRR955633-nofilt-trimmed.fastq
+Approx 80% complete for SRR955633-nofilt-trimmed.fastq
+Approx 85% complete for SRR955633-nofilt-trimmed.fastq
+Approx 90% complete for SRR955633-nofilt-trimmed.fastq
+Approx 95% complete for SRR955633-nofilt-trimmed.fastq
+Approx 100% complete for SRR955633-nofilt-trimmed.fastq
+mac2unix: converting file /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955633/error.log to Unix format ...
+mac2unix: converting file /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955633/output.log to Unix format ...
+Warning messages:
+1: In scan(file = file, what = what, sep = sep, quote = quote, dec = dec,  :
+  EOF within quoted string
+2: In scan(file = file, what = what, sep = sep, quote = quote, dec = dec,  :
+  number of items read is not a multiple of the number of columns
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v1.4.6
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S /share/de/Sperm_60e4415a8b4ef/SRR955633-al ... ||
+||                                                                            ||
+||             Output file : /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a ... ||
+||             Annotations : /home/vsac/database2/all/saf/all.saf (SAF)       ||
+||                                                                            ||
+||                 Threads : 1                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /home/vsac/database2/all/saf/all.saf ...              ||
+||    Features : 23571                                                        ||
+||    Meta-features : 23571                                                   ||
+||    Chromosomes : 23571                                                     ||
+||                                                                            ||
+|| Process BAM file /share/de/Sperm_60e4415a8b4ef/SRR955633-all.bam...        ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 2833616                                                   ||
+||    Successfully assigned reads : 906 (0.0%)                                ||
+||    Running time : 0.05 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+cat: SRR955633: No such file or directory
+[bam_sort_core] merging from 5 files...
+converting bam to fasta...
+# reads processed: 3119952
+# reads with at least one reported alignment: 357772 (11.47%)
+# reads that failed to align: 2715453 (87.04%)
+# reads with alignments suppressed due to -m: 46727 (1.50%)
+Reported 540136 alignments to 1 output stream(s)
+Mapping statistics
+
+#desc	total	mapped	unmapped	%mapped	%unmapped
+total: 18868544	3950284	14918260	0.209	0.791
+5r0: 18868544	3950284	14918260	0.209	0.791
+all files were created
+Loading required package: S4Vectors
+Loading required package: methods
+Loading required package: stats4
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB, clusterCall, clusterEvalQ,
+    clusterExport, clusterMap, parApply, parCapply, parLapply,
+    parLapplyLB, parRapply, parSapply, parSapplyLB
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame, cbind, colMeans, colnames,
+    colSums, do.call, duplicated, eval, evalq, Filter, Find, get, grep,
+    grepl, intersect, is.unsorted, lapply, lengths, Map, mapply, match,
+    mget, order, paste, pmax, pmax.int, pmin, pmin.int, Position, rank,
+    rbind, Reduce, rowMeans, rownames, rowSums, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which, which.max, which.min
+
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:base’:
+
+    expand.grid
+
+Loading required package: IRanges
+Loading required package: GenomicRanges
+Loading required package: GenomeInfoDb
+Loading required package: SummarizedExperiment
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with
+    'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+Loading required package: DelayedArray
+Loading required package: matrixStats
+
+Attaching package: ‘matrixStats’
+
+The following objects are masked from ‘package:Biobase’:
+
+    anyMissing, rowMedians
+
+
+Attaching package: ‘DelayedArray’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    colMaxs, colMins, colRanges, rowMaxs, rowMins, rowRanges
+
+The following object is masked from ‘package:base’:
+
+    apply
+
+
+Attaching package: ‘gplots’
+
+The following object is masked from ‘package:IRanges’:
+
+    space
+
+The following object is masked from ‘package:S4Vectors’:
+
+    space
+
+The following object is masked from ‘package:stats’:
+
+    lowess
+
+
+Attaching package: ‘gridExtra’
+
+The following object is masked from ‘package:Biobase’:
+
+    combine
+
+The following object is masked from ‘package:BiocGenerics’:
+
+    combine
+
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+
+Attaching package: ‘genefilter’
+
+The following objects are masked from ‘package:matrixStats’:
+
+    rowSds, rowVars
+
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+estimating size factors
+estimating dispersions
+gene-wise dispersion estimates
+mean-dispersion relationship
+final dispersion estimates
+fitting model and testing
+Warning messages:
+1: In checkForExperimentalReplicates(object, modelMatrix) :
+  same number of samples and coefficients to fit,
+  estimating dispersion by treating samples as replicates.
+  read the ?DESeq section on 'Experiments without replicates'
+2: In checkForExperimentalReplicates(object, modelMatrix) :
+  same number of samples and coefficients to fit,
+  estimating dispersion by treating samples as replicates.
+  read the ?DESeq section on 'Experiments without replicates'
+3: In checkForExperimentalReplicates(object, modelMatrix) :
+  same number of samples and coefficients to fit,
+  estimating dispersion by treating samples as replicates.
+  read the ?DESeq section on 'Experiments without replicates'
+4: In checkForExperimentalReplicates(object, modelMatrix) :
+  same number of samples and coefficients to fit,
+  estimating dispersion by treating samples as replicates.
+  read the ?DESeq section on 'Experiments without replicates'
+5: In checkForExperimentalReplicates(object, modelMatrix) :
+  same number of samples and coefficients to fit,
+  estimating dispersion by treating samples as replicates.
+  read the ?DESeq section on 'Experiments without replicates'
+6: In checkForExperimentalReplicates(object, modelMatrix) :
+  same number of samples and coefficients to fit,
+  estimating dispersion by treating samples as replicates.
+  read the ?DESeq section on 'Experiments without replicates'

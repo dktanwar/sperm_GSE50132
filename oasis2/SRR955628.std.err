@@ -1,0 +1,189 @@
+You are running cutadapt 1.7.1 with Python 2.7.6
+Command line parameters: -a xxxxxxxxxxxxxxxxxxxxxxxxxxx /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955628/SRR955628_cat.fastq
+Maximum error rate: 10.00%
+   No. of adapters: 1
+   Processed reads:     21354015
+   Processed bases:   1067700750 bp (1067.7 Mbp)
+     Trimmed reads:            0 (0.0%)
+     Trimmed bases:            0 bp (0.0 Mbp) (0.00% of total)
+   Too short reads:            0 (0.0% of processed reads)
+    Too long reads:            0 (0.0% of processed reads)
+        Total time:    147.45 s
+     Time per read:      0.007 ms
+
+=== Adapter 1 ===
+
+Sequence: XXXXXXXXXXXXXXXXXXXXXXXXXXX; Type: regular 3'; Length: 27; Trimmed: 0 times.
+
+You are running cutadapt 1.7.1 with Python 2.7.6
+Command line parameters: -a CTGTAGGCACCA /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955628/SRR955628_cat.fastq
+Maximum error rate: 10.00%
+   No. of adapters: 1
+   Processed reads:     21354015
+   Processed bases:   1067700750 bp (1067.7 Mbp)
+     Trimmed reads:     20586067 (96.4%)
+     Trimmed bases:    590517519 bp (590.5 Mbp) (55.31% of total)
+   Too short reads:            0 (0.0% of processed reads)
+    Too long reads:            0 (0.0% of processed reads)
+        Total time:    272.47 s
+     Time per read:      0.013 ms
+
+=== Adapter 1 ===
+
+Sequence: CTGTAGGCACCA; Type: regular 3'; Length: 12; Trimmed: 20586067 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 32.7%
+  C: 10.7%
+  G: 20.9%
+  T: 22.1%
+  none/other: 13.6%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	121304	333656.5	0	121304
+4	133455	83414.1	0	133455
+5	148762	20853.5	0	148762
+6	195105	5213.4	0	195105
+7	267216	1303.3	0	267216
+8	407939	325.8	0	407939
+9	477174	81.5	0	469888 7286
+10	246911	20.4	1	233652 13259
+11	252142	5.1	1	237523 14619
+12	215492	1.3	1	202799 12693
+13	225989	1.3	1	211209 14780
+14	214879	1.3	1	200715 14164
+15	262265	1.3	1	245162 17103
+16	323266	1.3	1	302799 20467
+17	661390	1.3	1	625216 36174
+18	507578	1.3	1	474648 32930
+19	639878	1.3	1	601250 38628
+20	470348	1.3	1	440583 29765
+21	420748	1.3	1	390362 30386
+22	386511	1.3	1	362031 24480
+23	382738	1.3	1	359058 23680
+24	456079	1.3	1	429679 26400
+25	469504	1.3	1	441755 27749
+26	483230	1.3	1	455371 27859
+27	550925	1.3	1	521391 29534
+28	668373	1.3	1	628124 40249
+29	588988	1.3	1	557508 31480
+30	608328	1.3	1	575359 32969
+31	808376	1.3	1	764270 44106
+32	791538	1.3	1	741088 50450
+33	851861	1.3	1	809968 41893
+34	855291	1.3	1	815378 39913
+35	1087471	1.3	1	1040269 47202
+36	865031	1.3	1	829682 35349
+37	672211	1.3	1	647699 24512
+38	541586	1.3	1	522594 18992
+39	341309	1.3	1	331287 10022
+40	119259	1.3	1	115793 3466
+41	24236	1.3	1	23067 1169
+42	9257	1.3	1	8633 624
+43	7563	1.3	1	6945 618
+44	6581	1.3	1	6220 361
+45	6659	1.3	1	6047 612
+46	6866	1.3	1	6551 315
+47	2735	1.3	1	2453 282
+48	285	1.3	1	162 123
+49	1175	1.3	1	847 328
+50	2800260	1.3	1	2685889 114371
+
+Started analysis of SRR955628-trimmed.fastq
+Approx 5% complete for SRR955628-trimmed.fastq
+Approx 10% complete for SRR955628-trimmed.fastq
+Approx 15% complete for SRR955628-trimmed.fastq
+Approx 20% complete for SRR955628-trimmed.fastq
+Approx 25% complete for SRR955628-trimmed.fastq
+Approx 30% complete for SRR955628-trimmed.fastq
+Approx 35% complete for SRR955628-trimmed.fastq
+Approx 40% complete for SRR955628-trimmed.fastq
+Approx 45% complete for SRR955628-trimmed.fastq
+Approx 50% complete for SRR955628-trimmed.fastq
+Approx 55% complete for SRR955628-trimmed.fastq
+Approx 60% complete for SRR955628-trimmed.fastq
+Approx 65% complete for SRR955628-trimmed.fastq
+Approx 70% complete for SRR955628-trimmed.fastq
+Approx 75% complete for SRR955628-trimmed.fastq
+Approx 80% complete for SRR955628-trimmed.fastq
+Approx 85% complete for SRR955628-trimmed.fastq
+Approx 90% complete for SRR955628-trimmed.fastq
+Approx 95% complete for SRR955628-trimmed.fastq
+Approx 100% complete for SRR955628-trimmed.fastq
+Started analysis of SRR955628-nofilt-trimmed.fastq
+Approx 5% complete for SRR955628-nofilt-trimmed.fastq
+Approx 10% complete for SRR955628-nofilt-trimmed.fastq
+Approx 15% complete for SRR955628-nofilt-trimmed.fastq
+Approx 20% complete for SRR955628-nofilt-trimmed.fastq
+Approx 25% complete for SRR955628-nofilt-trimmed.fastq
+Approx 30% complete for SRR955628-nofilt-trimmed.fastq
+Approx 35% complete for SRR955628-nofilt-trimmed.fastq
+Approx 40% complete for SRR955628-nofilt-trimmed.fastq
+Approx 45% complete for SRR955628-nofilt-trimmed.fastq
+Approx 50% complete for SRR955628-nofilt-trimmed.fastq
+Approx 55% complete for SRR955628-nofilt-trimmed.fastq
+Approx 60% complete for SRR955628-nofilt-trimmed.fastq
+Approx 65% complete for SRR955628-nofilt-trimmed.fastq
+Approx 70% complete for SRR955628-nofilt-trimmed.fastq
+Approx 75% complete for SRR955628-nofilt-trimmed.fastq
+Approx 80% complete for SRR955628-nofilt-trimmed.fastq
+Approx 85% complete for SRR955628-nofilt-trimmed.fastq
+Approx 90% complete for SRR955628-nofilt-trimmed.fastq
+Approx 95% complete for SRR955628-nofilt-trimmed.fastq
+Approx 100% complete for SRR955628-nofilt-trimmed.fastq
+mac2unix: converting file /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955628/error.log to Unix format ...
+mac2unix: converting file /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955628/output.log to Unix format ...
+Warning messages:
+1: In scan(file = file, what = what, sep = sep, quote = quote, dec = dec,  :
+  EOF within quoted string
+2: In scan(file = file, what = what, sep = sep, quote = quote, dec = dec,  :
+  number of items read is not a multiple of the number of columns
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v1.4.6
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S /share/de/Sperm_60e4415a8b4ef/SRR955628-al ... ||
+||                                                                            ||
+||             Output file : /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a ... ||
+||             Annotations : /home/vsac/database2/all/saf/all.saf (SAF)       ||
+||                                                                            ||
+||                 Threads : 1                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||         Strand specific : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file /home/vsac/database2/all/saf/all.saf ...              ||
+||    Features : 23571                                                        ||
+||    Meta-features : 23571                                                   ||
+||    Chromosomes : 23571                                                     ||
+||                                                                            ||
+|| Process BAM file /share/de/Sperm_60e4415a8b4ef/SRR955628-all.bam...        ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 3889604                                                   ||
+||    Successfully assigned reads : 21325 (0.5%)                              ||
+||    Running time : 0.07 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+cat: SRR955628: No such file or directory

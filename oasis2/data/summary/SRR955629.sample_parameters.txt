@@ -1,0 +1,13 @@
+Sample ID	SRR955629
+Initial number of reads	15145094
+Number of trimmed reads	14894897
+Percentage of trimmed reads	98.3%
+Number of reads too short	5309882
+Number of reads too long	2722109
+Number of mapped reads	7113103
+Average read length	20.94
+Number of uniquely mapped reads	603218
+Adapter sequence	CTGTAGGCACCA
+Minimum read length	15
+Maximum read length	32
+Number of mismatches in the mapping step	5.00

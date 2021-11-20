@@ -1,0 +1,428 @@
+
+
+processing file: qc_report.Rmd
+Rfastp is a wrapper of fastp project: https://github.com/OpenGene/fastp
+
+Please cite fastp in your publication:
+Shifu Chen, Yanqing Zhou, Yaru Chen, Jia Gu; fastp: an ultra-fast all-in-one 
+    FASTQ preprocessor, Bioinformatics, Volume 34, Issue 17, 1 September 2018,
+    Pages i884-i890, https://doi.org/10.1093/bioinformatics/bty560
+Loading required package: ggplot2
+
+Attaching package: 'plotly'
+
+The following object is masked from 'package:ggplot2':
+
+    last_plot
+
+The following object is masked from 'package:stats':
+
+    filter
+
+The following object is masked from 'package:graphics':
+
+    layout
+
+
+Attaching package: 'plyr'
+
+The following objects are masked from 'package:plotly':
+
+    arrange, mutate, rename, summarise
+
+No trace type specified:
+  Based on info supplied, a 'scatter' trace seems appropriate.
+  Read more about this trace type -> https://plotly.com/r/reference/#scatter
+No scatter mode specifed:
+  Setting the mode to markers
+  Read more about this attribute -> https://plotly.com/r/reference/#scatter-mode
+[10:50:0] start to load data
+[[10:10:50:150] start to load data
+:1] start to load data
+[10:50:1] start to load data
+[10:50:4] loaded 1M reads
+[10:50:5] loaded 1M reads
+[10:50:5] loaded 1M reads
+[10:50:5] loaded 1M reads
+[10:50:8] loaded 2M reads
+[10:50:9] loaded 2M reads
+[10:50:10] loaded 2M reads
+[10:50:10] loaded 2M reads
+[10:50:12] loaded 3M reads
+[10:50:14] loaded 3M reads
+[10:50:14] loaded 3M reads
+[10:50:14] loaded 3M reads
+[10:50:16] loaded 4M reads
+[10:50:18] loaded 4M reads
+[10:50:18] loaded 4M reads
+[10:50:18] loaded 4M reads
+[10:50:20] loaded 5M reads
+[10:50:22] loaded 5M reads
+[10:50:22] loaded 5M reads
+[10:50:23] loaded 5M reads
+[10:50:24] loaded 6M reads
+[10:50:26] loaded 6M reads
+[10:50:26] loaded 6M reads
+[10:50:27] loaded 6M reads
+[10:50:29] loaded 7M reads
+[10:50:30] loaded 7M reads
+[10:50:30] loaded 7M reads
+[10:50:31] loaded 7M reads
+[10:50:33] loaded 8M reads
+[10:50:34] loaded 8M reads
+[10:50:35] loaded 8M reads
+[10:50:35] loaded 8M reads
+[10:50:37] loaded 9M reads
+[10:50:38] loaded 9M reads
+[10:50:39] loaded 9M reads
+[10:50:39] all reads loaded, start to monitor thread status
+[10:50:39] thread 1 is processing the 8999 / 9000 pack
+[10:50:39] thread 1 data processing completed
+[10:50:39] thread 1 finished
+[10:50:39] thread 4 data processing completed
+[10:50:39] thread 2 data processing completed
+[10:50:39] thread 2 finished
+[10:50:39] thread 4 finished
+[10:50:39] output//SRR955634_R1.fastq.gz writer finished
+[10:50:39] thread 3 data processing completed
+[10:50:39] thread 3 finished
+[10:50:39] start to generate reports
+
+Read1 before filtering:
+total reads: 8999053
+total bases: 449952650
+Q20 bases: 433546624(96.3538%)
+Q30 bases: 405844827(90.1972%)
+
+Read1 after filtering:
+total reads: 1746985
+total bases: 45581788
+Q20 bases: 45018894(98.7651%)
+Q30 bases: 42379168(92.9739%)
+
+Filtering result:
+reads passed filter: 1746985
+reads failed due to low quality: 3238
+reads failed due to too many N: 0
+reads failed due to too short: 7248830
+reads with adapter trimmed: 8885905
+bases trimmed due to adapters: 378457949
+
+Duplication rate (may be overestimated since this is SE data): 26.43%
+[10:50:41] loaded 10M reads
+[10:50:42] loaded 10M reads
+[10:50:43] loaded 10M reads
+[10:50:45] loaded 11M reads
+[10:50:47] loaded 11M reads
+[10:50:47] loaded 11M reads
+[10:50:50] loaded 12M reads
+[10:50:50] loaded 12M reads
+[10:50:51] loaded 12M reads
+[10:50:54] loaded 13M reads
+[10:50:54] loaded 13M reads
+[10:50:56] loaded 13M reads
+[10:50:58] loaded 14M reads
+[10:50:58] loaded 14M reads
+[10:50:59] loaded 14M reads
+[10:51:2] loaded 15M reads
+[10:51:2] all reads loaded, start to monitor thread status
+[10:51:2] thread 3 is processing the 15145 / 15146 pack
+[10:51:2] thread 1 data processing completed
+[10:51:2] thread 1 finished
+[10:51:2] thread 3 data processing completed
+[10:51:2] thread 3 finished
+[10:51:2] thread 4 data processing completed
+[10:51:2] thread 4 finished
+[10:51:2] thread 2 data processing completed
+[10:51:2] thread 2 finished
+[10:51:2] output//SRR955629_R1.fastq.gz writer finished
+[10:51:2] start to generate reports
+
+[10:51:2] loaded 15M reads
+Read1 before filtering:
+total reads: 15145094
+total bases: 757254700
+Q20 bases: 732372019(96.7141%)
+Q30 bases: 685909354(90.5784%)
+
+Read1 after filtering:
+total reads: 9752048
+total bases: 263972256
+Q20 bases: 261287984(98.9831%)
+Q30 bases: 248299061(94.0626%)
+
+Filtering result:
+reads passed filter: 9752048
+reads failed due to low quality: 9227
+reads failed due to too many N: 0
+reads failed due to too short: 5383819
+reads with adapter trimmed: 14539366
+bases trimmed due to adapters: 442504704
+
+Duplication rate (may be overestimated since this is SE data): 35.3865%
+[10:51:3] loaded 15M reads
+[10:51:7] loaded 16M reads
+[10:51:7] loaded 16M reads
+[10:51:11] loaded 17M reads
+[10:51:12] loaded 17M reads
+[10:51:15] loaded 18M reads
+[10:51:16] loaded 18M reads
+[10:51:19] all reads loaded, start to monitor thread status
+[10:51:19] thread 3 is processing the 18771 / 18772 pack
+[10:51:19] thread 4 is processing the 18771 / 18772 pack
+[10:51:19] thread 2 data processing completed
+[10:51:19] thread 2 finished
+[10:51:19] thread 1 data processing completed
+[10:51:19] thread 1 finished
+[10:51:19] thread 4 data processing completed
+[10:51:19] thread 4 finished
+[10:51:19] thread 3 data processing completed
+[10:51:19] thread 3 finished
+[10:51:19] output//SRR955633_R1.fastq.gz writer finished
+[10:51:19] start to generate reports
+
+Read1 before filtering:
+total reads: 18771501
+total bases: 938575050
+Q20 bases: 910665276(97.0264%)
+Q30 bases: 853893917(90.9777%)
+
+Read1 after filtering:
+total reads: 12578898
+total bases: 366313296
+Q20 bases: 361950551(98.809%)
+Q30 bases: 342077299(93.3838%)
+
+Filtering result:
+reads passed filter: 12578898
+reads failed due to low quality: 11657
+reads failed due to too many N: 0
+reads failed due to too short: 6180946
+reads with adapter trimmed: 17708748
+bases trimmed due to adapters: 523338553
+
+Duplication rate (may be overestimated since this is SE data): 45.738%
+[10:51:20] loaded 19M reads
+[10:51:24] loaded 20M reads
+[10:51:29] loaded 21M reads
+[10:51:30] all reads loaded, start to monitor thread status
+[10:51:30] thread 1 is processing the 21353 / 21355 pack
+[10:51:30] thread 2 is processing the 21353 / 21355 pack
+[10:51:30] thread 4 is processing the 21353 / 21355 pack
+[10:51:30] thread 3 is processing the 21353 / 21355 pack
+[10:51:30] thread 2 data processing completed
+[10:51:30] thread 2 finished
+[10:51:30] thread 4 data processing completed
+[10:51:30] thread 4 finished
+[10:51:30] thread 3 data processing completed
+[10:51:30] thread 3 finished
+[10:51:30] thread 1 data processing completed
+[10:51:30] thread 1 finished
+[10:51:30] output//SRR955628_R1.fastq.gz writer finished
+[10:51:30] start to generate reports
+
+Read1 before filtering:
+total reads: 21354015
+total bases: 1067700750
+Q20 bases: 1035533864(96.9873%)
+Q30 bases: 972278842(91.0629%)
+
+Read1 after filtering:
+total reads: 15818144
+total bases: 438765815
+Q20 bases: 434345957(98.9927%)
+Q30 bases: 412966207(94.12%)
+
+Filtering result:
+reads passed filter: 15818144
+reads failed due to low quality: 12166
+reads failed due to too many N: 0
+reads failed due to too short: 5523705
+reads with adapter trimmed: 19981642
+bases trimmed due to adapters: 570693468
+
+Duplication rate (may be overestimated since this is SE data): 35.6883%
+output file: qc_report.knit.md
+
+
+Output created: qc_report.html
+Warning messages:
+1: No trace type specified and no positional attributes specified 
+2: Can't display both discrete & non-discrete data on same axis 
+3: Can't display both discrete & non-discrete data on same axis 
+4: Can't display both discrete & non-discrete data on same axis 
+5: Can't display both discrete & non-discrete data on same axis 
+: chr "asis"
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                              |..................                                                    |  25%
+  ordinary text without R code
+
+  |                                                                              |...................                                                   |  27%
+label: qc-report-6 (with options) 
+List of 3
+ $ results: chr "asis"
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                              |.....................                                                 |  30%
+  ordinary text without R code
+
+  |                                                                              |......................                                                |  32%
+label: qc-report-7 (with options) 
+List of 3
+ $ results: chr "asis"
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                              |........................                                              |  34%
+  ordinary text without R code
+
+  |                                                                              |.........................                                             |  36%
+label: qc-report-8 (with options) 
+List of 3
+ $ results: chr "asis"
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                              |...........................                                           |  39%
+  ordinary text without R code
+
+  |                                                                              |.............................                                         |  41%
+label: qc-report-9 (with options) 
+List of 3
+ $ results: chr "asis"
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                              |..............................                                        |  43%
+  ordinary text without R code
+
+  |                                                                              |................................                                      |  45%
+label: qc-report-10 (with options) 
+List of 3
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ results: chr "asis"
+
+  |                                                                              |.................................                                     |  48%
+  ordinary text without R code
+
+  |                                                                              |...................................                                   |  50%
+label: qc-report-11 (with options) 
+List of 3
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ results: chr "asis"
+
+  |                                                                              |.....................................                                 |  52%
+  ordinary text without R code
+
+  |                                                                              |......................................                                |  55%
+label: qc-report-12 (with options) 
+List of 3
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ results: chr "asis"
+
+  |                                                                              |........................................                              |  57%
+  ordinary text without R code
+
+  |                                                                              |.........................................                             |  59%
+label: qc-report-13 (with options) 
+List of 3
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ results: chr "asis"
+
+  |                                                                              |...........................................                           |  61%
+  ordinary text without R code
+
+  |                                                                              |.............................................                         |  64%
+label: qc-report-14 (with options) 
+List of 3
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ results: chr "asis"
+
+  |                                                                              |..............................................                        |  66%
+  ordinary text without R code
+
+  |                                                                              |................................................                      |  68%
+label: qc-report-15 (with options) 
+List of 3
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ results: chr "asis"
+
+  |                                                                              |.................................................                     |  70%
+  ordinary text without R code
+
+  |                                                                              |...................................................                   |  73%
+label: qc-report-16 (with options) 
+List of 3
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ results: chr "asis"
+
+  |                                                                              |....................................................                  |  75%
+  ordinary text without R code
+
+  |                                                                              |......................................................                |  77%
+label: qc-report-17 (with options) 
+List of 3
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ results: chr "asis"
+
+  |                                                                              |........................................................              |  80%
+  ordinary text without R code
+
+  |                                                                              |.........................................................             |  82%
+label: qc-report-18 (with options) 
+List of 3
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ results: chr "asis"
+
+  |                                                                              |...........................................................           |  84%
+  ordinary text without R code
+
+  |                                                                              |............................................................          |  86%
+label: qc-report-19 (with options) 
+List of 2
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+  |                                                                              |..............................................................        |  89%
+  ordinary text without R code
+
+  |                                                                              |................................................................      |  91%
+label: qc-report-20 (with options) 
+List of 3
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ results: chr "asis"
+
+  |                                                                              |.................................................................     |  93%
+  ordinary text without R code
+
+  |                                                                              |...................................................................   |  95%
+label: qc-report-21 (with options) 
+List of 3
+ $ warning: logi FALSE
+ $ message: logi FALSE
+ $ eval   : logi FALSE
+
+  |                                                                              |....................................................................  |  98%
+  ordinary text without R code
+
+  |                                                                              |......................................................................| 100%
+label: qc-report-22 (with options) 
+List of 2
+ $ warning: logi FALSE
+ $ message: logi FALSE
+
+
+/mnt/IM/DKT/software/anaconda3/envs/bioinfo/bin/pandoc +RTS -K512m -RTS qc_report.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output qc_report.html --lua-filter /home/ubuntu/R/x86_64-pc-linux-gnu-library/4.0/rmarkdown/rmarkdown/lua/pagebreak.lua --lua-filter /home/ubuntu/R/x86_64-pc-linux-gnu-library/4.0/rmarkdown/rmarkdown/lua/latex-div.lua --self-contained --variable bs3=TRUE --standalone --section-divs --template /home/ubuntu/R/x86_64-pc-linux-gnu-library/4.0/rmarkdown/rmd/h/default.html --no-highlight --variable highlightjs=1 --variable theme=bootstrap --include-in-header /mnt/IM/tmp//Rtmpn1s7qo/rmarkdown-str4432366ec453.html --mathjax --variable 'mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML' 

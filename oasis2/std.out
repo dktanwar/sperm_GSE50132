@@ -1,0 +1,200 @@
+Archive:  /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef.zip
+  inflating: /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955633.fastq.gz.fasta.stats  
+  inflating: /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955628.fastq.gz.fasta  
+  inflating: /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/run.log  
+  inflating: /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955633.fastq.gz.fasta  
+  inflating: /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955634.fastq.gz.fasta  
+  inflating: /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955629.fastq.gz.fasta  
+  inflating: /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955629.fastq.gz.fasta.stats  
+  inflating: /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955634.fastq.gz.fasta.stats  
+  inflating: /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/version.txt  
+  inflating: /share/de/Sperm_60e4415a8b4ef/Sperm_60e4415a8b4ef/SRR955628.fastq.gz.fasta.stats  
+Compressed files uploaded
+----------------- Starting -----------------
+Started Writing hashed fasta to unhashed fastq
+Running for file 	SRR955629.fastq.gz.fasta
+Running for file 	SRR955628.fastq.gz.fasta
+Running for file 	SRR955634.fastq.gz.fasta
+Running for file 	SRR955633.fastq.gz.fasta
+Finished Writing unhashed fastq!!! Success
+Took 	55774	 in milisecs, to write unhash fasta files in fastq
+Make report
+Make report
+Make report
+Make report
+Took 	157958	 in milisec, in fastqc
+Will delete all files in /web/de//share/de/Sperm_60e4415a8b4ef
+1
+Submitted batch job 44555
+Submitted batch job 44556
+Submitted batch job 44557
+Submitted batch job 44558
+#Starting miRDeep2
+/home/vsac/pipelines2/programs/mirdeep2/new_miRDeep3.pl /share/de/Sperm_60e4415a8b4ef/prediction//seqs_colapsed.fa /home/vsac/database2/mm10/bowtie/mm10.fa /share/de/Sperm_60e4415a8b4ef/prediction//seqs.arf none /home/vsac/database2/mirbase/mature.fa none -t Mouse -a 136
+
+miRDeep2 started at 12:36:32
+
+
+mkdir /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32
+
+#testing input files
+started: 12:36:42
+sanity_check_mature_ref.pl /home/vsac/database2/mirbase/mature.fa
+
+
+ended: 12:36:43
+total:0h:0m:1s
+
+sanity_check_reads_ready_file.pl /share/de/Sperm_60e4415a8b4ef/prediction//seqs_colapsed.fa
+
+started: 12:36:43
+
+ended: 12:36:58
+total:0h:0m:15s
+
+started: 12:36:58
+sanity_check_genome.pl /home/vsac/database2/mm10/bowtie/mm10.fa
+
+
+ended: 12:37:31
+total:0h:0m:33s
+
+started: 12:37:31
+sanity_check_mapping_file.pl /share/de/Sperm_60e4415a8b4ef/prediction//seqs.arf
+
+
+ended: 12:37:32
+total:0h:0m:1s
+
+Pre-quantitation is skipped caused by missing file with known precursor miRNAs
+
+
+rna2dna.pl /home/vsac/database2/mirbase/mature.fa > /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/mature
+
+
+ended: 12:37:32
+total:0h:0m:1s
+
+#parsing genome mappings
+parse_mappings.pl /share/de/Sperm_60e4415a8b4ef/prediction//seqs.arf -a 0 -b 18 -c 25 -i 5 > /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/seqs.arf_parsed.arf
+
+started: 12:37:32
+
+ended: 12:37:39
+total:0h:0m:7s
+
+#excising precursors
+started: 12:37:39
+excise_precursors.pl /home/vsac/database2/mm10/bowtie/mm10.fa /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/seqs.arf_parsed.arf /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors.coords -a 136 > /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors.fa
+
+
+ended: 12:38:36
+total:0h:0m:57s
+
+#preparing signature
+new_prepare_signature.pl /share/de/Sperm_60e4415a8b4ef/prediction//seqs_colapsed.fa /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors.fa 1 -o /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/signature.arf 2>>/share/de/Sperm_60e4415a8b4ef/prediction/error_06_07_2021_t_12_36_32.log
+
+started: 12:38:36
+
+ended: 12:38:57
+total:0h:0m:21s
+
+#folding precursors
+RNAfold < /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors.fa -noPS > /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors.str
+
+started: 12:38:57
+
+ended: 12:39:03
+total:0h:0m:6s
+
+#computing randfold p-values
+select_for_randfold.pl /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/signature.arf /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors.str > /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors_for_randfold.ids
+
+started: 12:39:03
+
+ended: 12:39:08
+total:0h:0m:5s
+
+started: 12:39:08
+fastaselect.pl /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors.fa /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors_for_randfold.ids > /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors_for_randfold.fa
+
+
+ended: 12:39:08
+total:0h:0m:0s
+
+started: 12:39:08
+randfold -s /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors_for_randfold.fa 99 > /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors_for_randfold.rand
+
+
+ended: 12:41:32
+total:0h:2m:24s
+
+#running miRDeep core algorithm
+started: 12:41:32
+miRDeep2_core_algorithm.pl /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/signature.arf /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors.str -s /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/mature -v -50 -l 40 -y /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors_for_randfold.rand > /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/output.mrd
+
+ended: 12:41:37
+total:0h:0m:5s
+
+#running permuted controls
+started: 12:41:37
+echo 'miRDeep2_core_algorithm.pl /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/signature.arf /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors.str -s /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/mature -v -50 -y /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors_for_randfold.rand > /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/output.mrd' > /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/command_line
+
+perform_controls.pl /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/command_line /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors.str 100 -a > /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/output_permuted.mrd 2>>/share/de/Sperm_60e4415a8b4ef/prediction/error_06_07_2021_t_12_36_32.log
+
+
+ended: 12:49:35
+total:0h:7m:58s
+
+#doing survey of accuracy
+survey.pl /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/output.mrd -a /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/output_permuted.mrd -d 136 > /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/survey.csv
+
+started: 12:49:35
+
+ended: 12:49:35
+total:0h:0m:0s
+
+#producing graphic results
+started: 12:49:35
+new_make_html3.pl -f /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/output.mrd -p /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/tmp/precursors.coords -v 0 -s /share/de/Sperm_60e4415a8b4ef/prediction/mirdeep_runs/run_06_07_2021_t_12_36_32/survey.csv -c -e -r /home/vsac/pipelines2/programs/mirdeep2/Rfam_for_miRDeep.fa -y 06_07_2021_t_12_36_32 -o  -a -t Mouse -V 2.0.0.5
+
+parsing input file finished
+checking Rfam for hits to precursors
+Build bowtie index of Rfam entries
+
+Mapping mature,star and loop sequences against index
+# reads processed: 224
+# reads with at least one reported alignment: 26 (11.61%)
+# reads that failed to align: 198 (88.39%)
+Reported 1600 alignments to 1 output stream(s)
+creating PDF files
+creating pdf for chr17_439 finished
+creating pdf for chr11_173 finished
+creating pdf for chr1_3 finished
+creating pdf for chr18_459 finished
+creating pdf for chr5_681 finished
+creating pdf for chr4_661 finished
+creating pdf for chr11_172 finished
+creating pdf for chr4_660 finished
+creating pdf for chr4_658 finished
+creating pdf for chr13_284 finished
+creating pdf for chr7_798 finished
+creating pdf for chr7_794 finished
+creating pdf for chr16_370 finished
+creating pdf for chr7_800 finished
+creating pdf for chr14_313 finished
+creating pdf for chr17_386 finished
+creating pdf for chr16_371 finished
+creating pdf for chr7_777 finished
+
+ended: 12:49:55
+total:0h:0m:20s
+
+
+
+miRDeep runtime: 
+
+started: 12:36:32
+ended: 12:49:55
+total:0h:13m:23s
+
